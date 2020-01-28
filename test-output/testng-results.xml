@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3408" started-at="2020-01-28T11:28:49Z" finished-at="2020-01-28T11:28:52Z">
+  <suite name="Default suite" duration-ms="3639" started-at="2020-01-28T11:36:30Z" finished-at="2020-01-28T11:36:33Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3408" started-at="2020-01-28T11:28:49Z" finished-at="2020-01-28T11:28:52Z">
+    <test name="Default test" duration-ms="3639" started-at="2020-01-28T11:36:30Z" finished-at="2020-01-28T11:36:33Z">
       <class name="com.w2a.testcase.applicant.LaunchWebsite">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.w2a.testcase.applicant.LaunchWebsite@56cdfb3b]" name="setUp" is-config="true" duration-ms="11306" started-at="2020-01-28T12:28:38Z" finished-at="2020-01-28T12:28:49Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.w2a.testcase.applicant.LaunchWebsite@56cdfb3b]" name="setUp" is-config="true" duration-ms="10667" started-at="2020-01-28T12:36:19Z" finished-at="2020-01-28T12:36:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="launchWebsite()[pri:0, instance:com.w2a.testcase.applicant.LaunchWebsite@56cdfb3b]" name="launchWebsite" duration-ms="3375" started-at="2020-01-28T12:28:49Z" finished-at="2020-01-28T12:28:52Z">
+        <test-method status="PASS" signature="launchWebsite()[pri:0, instance:com.w2a.testcase.applicant.LaunchWebsite@56cdfb3b]" name="launchWebsite" duration-ms="3605" started-at="2020-01-28T12:36:30Z" finished-at="2020-01-28T12:36:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchWebsite -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.w2a.testcase.applicant.LaunchWebsite@56cdfb3b]" name="tearDown" is-config="true" duration-ms="1133" started-at="2020-01-28T12:28:52Z" finished-at="2020-01-28T12:28:54Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.w2a.testcase.applicant.LaunchWebsite@56cdfb3b]" name="tearDown" is-config="true" duration-ms="1267" started-at="2020-01-28T12:36:34Z" finished-at="2020-01-28T12:36:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

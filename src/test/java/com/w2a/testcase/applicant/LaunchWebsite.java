@@ -13,6 +13,7 @@ public class LaunchWebsite extends TestBase {
 		
 		driver.findElement(By.xpath(OR.getProperty("contactmenu_XPATH"))).click();
 		driver.findElement(By.xpath(OR.getProperty("howtoPay_XPATH"))).click();
+		driver.findElement(By.xpath(OR.getProperty("utme/deRemedial_XPATH"))).click();
 		Thread.sleep(3000);
 
 		
