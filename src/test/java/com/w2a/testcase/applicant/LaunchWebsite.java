@@ -35,12 +35,20 @@ public class LaunchWebsite extends TestBase {
 		
 		driver.findElement(By.xpath(OR.getProperty("termsofService_XPATH"))).click();
 		
-		*/
+		
 		
         ((JavascriptExecutor)driver).executeScript("scroll(0,400)");
 		
 		
 		driver.findElement(By.xpath(OR.getProperty("twitterSocial_XPATH"))).click();
+		
+		Thread.sleep(5000);
+		*/
+		
+        ((JavascriptExecutor)driver).executeScript("scroll(0,400)");
+		
+		
+		driver.findElement(By.xpath(OR.getProperty("facebookSocial_XPATH"))).click();
 		
 		Thread.sleep(5000);
 
