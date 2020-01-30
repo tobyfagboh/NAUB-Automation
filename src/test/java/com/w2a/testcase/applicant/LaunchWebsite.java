@@ -26,7 +26,7 @@ public class LaunchWebsite extends TestBase {
 		Thread.sleep(5000);
 
 		driver.findElement(By.xpath(OR.getProperty("privacyPolicy_XPATH"))).click();
-		*/
+		
 		
 		
 		((JavascriptExecutor)driver).executeScript("scroll(0,400)");
@@ -34,6 +34,13 @@ public class LaunchWebsite extends TestBase {
 		Thread.sleep(5000);
 		
 		driver.findElement(By.xpath(OR.getProperty("termsofService_XPATH"))).click();
+		
+		*/
+		
+        ((JavascriptExecutor)driver).executeScript("scroll(0,400)");
+		
+		
+		driver.findElement(By.xpath(OR.getProperty("twitterSocial_XPATH"))).click();
 		
 		Thread.sleep(5000);
 
