@@ -150,7 +150,7 @@ public class TestBase {
 		test.log(LogStatus.INFO, "Typing in on : "+Locator+" entered value as "+value);
 	}
 	
-	static WebElement dropdown;
+	 static WebElement dropdown;
 	
 	public void select (String Locator, String value) {
 		
