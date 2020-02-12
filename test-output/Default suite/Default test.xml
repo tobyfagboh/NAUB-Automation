@@ -54,3 +54,6 @@ Session ID: 7d52c641f24a75270965f8e89b913eda
     <skipped/>
   </testcase> <!-- forgotPassword -->
 </testsuite> <!-- Default test -->
+<testsuite hostname="DESKTOP-OF9MC5M" ignored="0" name="Default test" tests="1" failures="0" timestamp="12 Feb 2020 14:47:43 GMT" time="9.839" errors="0">
+  <testcase name="applyUndergraduate" time="9.79" classname="com.w2a.testcase.applicant.ApplyUndergraduate"/>
+</testsuite> <!-- Default test -->
