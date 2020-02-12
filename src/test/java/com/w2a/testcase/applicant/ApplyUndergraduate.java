@@ -12,6 +12,8 @@ public class ApplyUndergraduate extends TestBase{
 	public void applyUndergraduate () throws InterruptedException {
 		
 		click("applyBtn_XPATH");
+		Thread.sleep(2000);
+	}
 		driver.findElement(By.xpath(OR.getProperty("undergraduate_XPATH"))).click ();
 		driver.findElement(By.xpath(OR.getProperty("surname_XPATH"))).sendKeys(OR.getProperty("surname_TEXT"));
 		driver.findElement(By.xpath(OR.getProperty("firstname_XPATH"))).sendKeys(OR.getProperty("firstname_TEXT"));
