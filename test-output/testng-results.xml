@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="5877" started-at="2020-01-30T21:51:21Z" finished-at="2020-01-30T21:51:27Z">
+  <suite name="Default suite" duration-ms="9839" started-at="2020-02-12T14:47:33Z" finished-at="2020-02-12T14:47:43Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="5877" started-at="2020-01-30T21:51:21Z" finished-at="2020-01-30T21:51:27Z">
-      <class name="com.w2a.testcase.applicant.LaunchWebsite">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.w2a.testcase.applicant.LaunchWebsite@56cdfb3b]" name="setUp" is-config="true" duration-ms="39489" started-at="2020-01-30T22:50:42Z" finished-at="2020-01-30T22:51:21Z">
+    <test name="Default test" duration-ms="9839" started-at="2020-02-12T14:47:33Z" finished-at="2020-02-12T14:47:43Z">
+      <class name="com.w2a.testcase.applicant.ApplyUndergraduate">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.w2a.testcase.applicant.ApplyUndergraduate@58695725]" name="setUp" is-config="true" duration-ms="10238" started-at="2020-02-12T15:47:23Z" finished-at="2020-02-12T15:47:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="launchWebsite()[pri:0, instance:com.w2a.testcase.applicant.LaunchWebsite@56cdfb3b]" name="launchWebsite" duration-ms="5718" started-at="2020-01-30T22:51:21Z" finished-at="2020-01-30T22:51:27Z">
+        <test-method status="PASS" signature="applyUndergraduate()[pri:0, instance:com.w2a.testcase.applicant.ApplyUndergraduate@58695725]" name="applyUndergraduate" duration-ms="9790" started-at="2020-02-12T15:47:33Z" finished-at="2020-02-12T15:47:43Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchWebsite -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.w2a.testcase.applicant.LaunchWebsite@56cdfb3b]" name="tearDown" is-config="true" duration-ms="1947" started-at="2020-01-30T22:51:27Z" finished-at="2020-01-30T22:51:29Z">
+        </test-method> <!-- applyUndergraduate -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.w2a.testcase.applicant.ApplyUndergraduate@58695725]" name="tearDown" is-config="true" duration-ms="1578" started-at="2020-02-12T15:47:43Z" finished-at="2020-02-12T15:47:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.w2a.testcase.applicant.LaunchWebsite -->
+      </class> <!-- com.w2a.testcase.applicant.ApplyUndergraduate -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
