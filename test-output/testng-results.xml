@@ -2,6 +2,7 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
+
   <suite name="Default suite" duration-ms="2378" started-at="2020-01-28T09:46:32Z" finished-at="2020-01-28T09:46:35Z">
     <groups>
     </groups>
@@ -16,10 +17,27 @@
           </reporter-output>
         </test-method> <!-- applyUndergraduate -->
         <test-method status="PASS" signature="tearDown()[pri:0, instance:com.w2a.testcase.applicant.ApplyUndergraduate@58695725]" name="tearDown" is-config="true" duration-ms="2127" started-at="2020-01-28T10:46:37Z" finished-at="2020-01-28T10:46:39Z">
+
+  <suite name="Default suite" duration-ms="7438" started-at="2020-02-03T15:06:12Z" finished-at="2020-02-03T15:06:20Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7438" started-at="2020-02-03T15:06:12Z" finished-at="2020-02-03T15:06:20Z">
+      <class name="com.w2a.testcase.applicant.ApplyUndergraduate">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.w2a.testcase.applicant.ApplyUndergraduate@58695725]" name="setUp" is-config="true" duration-ms="16256" started-at="2020-02-03T16:05:56Z" finished-at="2020-02-03T16:06:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="applyUndergraduate()[pri:0, instance:com.w2a.testcase.applicant.ApplyUndergraduate@58695725]" name="applyUndergraduate" duration-ms="7408" started-at="2020-02-03T16:06:12Z" finished-at="2020-02-03T16:06:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applyUndergraduate -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.w2a.testcase.applicant.ApplyUndergraduate@58695725]" name="tearDown" is-config="true" duration-ms="1310" started-at="2020-02-03T16:06:20Z" finished-at="2020-02-03T16:06:21Z">
+
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.w2a.testcase.applicant.ApplyUndergraduate -->
+
   <suite name="Default suite" duration-ms="5877" started-at="2020-01-30T21:51:21Z" finished-at="2020-01-30T21:51:27Z">
     <groups>
     </groups>
@@ -38,6 +56,7 @@
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.w2a.testcase.applicant.LaunchWebsite -->
+
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
