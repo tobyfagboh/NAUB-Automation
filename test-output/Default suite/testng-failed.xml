@@ -4,12 +4,20 @@
   <test name="Default test(failed)">
     <classes>
       <class name="com.w2a.testcase.applicant.ApplyUndergraduate">
+      <class name="com.w2a.testcase.applicant.LaunchWebsite">
+
         <methods>
           <include name="applyUndergraduate"/>
           <include name="setUp"/>
           <include name="tearDown"/>
+
         </methods>
       </class> <!-- com.w2a.testcase.applicant.ApplyUndergraduate -->
+
+          <include name="launchWebsite"/>
+        </methods>
+      </class> <!-- com.w2a.testcase.applicant.LaunchWebsite -->
+
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
